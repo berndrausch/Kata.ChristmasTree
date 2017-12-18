@@ -1,0 +1,62 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.ChristmasTree.Console", "Kata.ChristmasTree.Console\Kata.ChristmasTree.Console.csproj", "{15B4FF2E-D344-498C-A820-F4D439B452BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.ChristmasTree.Logic", "Kata.ChristmasTree.Logic\Kata.ChristmasTree.Logic.csproj", "{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.ChristmasTree.Tests", "Kata.ChristmasTree.Tests\Kata.ChristmasTree.Tests.csproj", "{82493D00-16E7-4C74-8E5E-FDD1826D1D09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Debug|x64.ActiveCfg = Debug|x64
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Debug|x64.Build.0 = Debug|x64
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Debug|x86.ActiveCfg = Debug|x86
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Debug|x86.Build.0 = Debug|x86
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Release|x64.ActiveCfg = Release|x64
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Release|x64.Build.0 = Release|x64
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Release|x86.ActiveCfg = Release|x86
+		{15B4FF2E-D344-498C-A820-F4D439B452BD}.Release|x86.Build.0 = Release|x86
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Debug|x64.ActiveCfg = Debug|x64
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Debug|x64.Build.0 = Debug|x64
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Debug|x86.ActiveCfg = Debug|x86
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Debug|x86.Build.0 = Debug|x86
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Release|x64.ActiveCfg = Release|x64
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Release|x64.Build.0 = Release|x64
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Release|x86.ActiveCfg = Release|x86
+		{E3C2FE2C-0644-44A0-B57F-92AAF94BC90B}.Release|x86.Build.0 = Release|x86
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Debug|x64.ActiveCfg = Debug|x64
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Debug|x64.Build.0 = Debug|x64
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Debug|x86.ActiveCfg = Debug|x86
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Debug|x86.Build.0 = Debug|x86
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Release|x64.ActiveCfg = Release|x64
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Release|x64.Build.0 = Release|x64
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Release|x86.ActiveCfg = Release|x86
+		{82493D00-16E7-4C74-8E5E-FDD1826D1D09}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
