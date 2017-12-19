@@ -13,10 +13,10 @@ namespace Kata.ChristmasTree.Console
             var lines = tree.GetLines(5, false);
             foreach( var line in lines)
             {
-                Console.WriteLine(line);
+                System.Console.WriteLine(line);
             }
-            
-            Console.ReadLine();
+
+            System.Console.ReadLine();
         }
     }
 }
