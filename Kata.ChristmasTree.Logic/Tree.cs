@@ -13,25 +13,31 @@ namespace Kata.ChristmasTree.Logic
         {
             if (addStar)
             {
-                yield return this.GenerateSpaces(height-1) + STAR;
+                yield return GenerateStar(height);
             }
             
             for (int i = 0; i < height; i++)
             {
-                yield return this.GenerateSpaces(height-(i+1)) + this.GenerateChars(TREE, 2*i+1);
+                yield return this.GenerateTreeRow(height,i);
             }         
 
-           yield return this.GenerateSpaces(height-1) + ROOT;
+           yield return this.GenerateRoot(height);
         }
 
-        private String GenerateSpaces(int count)
-        {
-            return this.GenerateChars(' ', count);
-        }
+        private String GenerateStar(int totalHeight) 
+            => this.GenerateSpaces(totalHeight - 1) + STAR;
 
-        private String GenerateChars(char c, int count)
-        {
-            return new String(c, count);
-        }
+        private String GenerateTreeRow(int totalHeight, int currentHeight) 
+            => this.GenerateSpaces(totalHeight - (currentHeight + 1))
+                + this.GenerateChars(TREE, 2 * currentHeight + 1);
+
+        private String GenerateRoot(int totalHeight) 
+            => this.GenerateSpaces(totalHeight - 1) + ROOT;
+
+        private String GenerateSpaces(int count) 
+            => this.GenerateChars(' ', count);
+
+        private String GenerateChars(char c, int count) 
+            => new String(c, count);
     }
 }
