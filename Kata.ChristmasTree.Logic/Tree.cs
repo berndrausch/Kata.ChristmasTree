@@ -7,6 +7,11 @@ namespace Kata.ChristmasTree.Logic
     {
         public IEnumerable<String> GetLines(int height, bool addStar)
         {
+            if (addStar)
+            {
+                yield return "*";
+            }
+            
             yield return "X";
             yield return "I";
         }
